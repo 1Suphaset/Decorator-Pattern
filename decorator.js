@@ -29,7 +29,7 @@ class ConcentratedStudy extends StudyDecorator {
 
 class GoodGrade extends ConcentratedStudy {
     study() {
-        return super.study() + " ได้เกรดดี";
+        return super.study() + " ได้เกรดD";
     }
 }
 
